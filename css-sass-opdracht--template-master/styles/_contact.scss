@@ -1,0 +1,45 @@
+.contact {
+    padding: 20px;
+}
+.wrapper .contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact__form--wrapper,
+.contact__wrapper {
+    padding: 20px;
+}
+
+.copy--wrapper {
+    padding-left: 20px;
+
+    &__text {
+        font-weight: 500;
+    }
+}
+.contact__form {
+    display: flex;
+}
+.contact__form input:first-child {
+    flex: 1 0 80%;
+    background-color: transparent;
+}
+.contact__form input:last-child {
+    flex: 1 0 20%;
+    border-left: 0;
+    cursor: pointer;
+    background-color: #c0eea9;
+    transition: all 0.25s ease;
+}
+.contact__input {
+    padding: 10px;
+    border: 1px solid #000;
+}
+#submit__contact:hover {
+    background-color: #000;
+    color: #fff;
+    transition: all 0.25s ease;
+    -webkit-box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
+}

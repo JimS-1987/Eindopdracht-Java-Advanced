@@ -1,0 +1,33 @@
+.featured {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.featured__line {
+  width: 3em;
+  height: 1px;
+  background-color: #000;
+  margin-right: 1em;
+}
+.featured__title {
+  text-transform: uppercase;
+}
+.featured__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.featured__image--img {
+  width: 300px;
+}
+
+.featured__text{
+  max-width: 700px;
+  text-align: center;
+  padding: 20px;
+}
+.featured__text--p {
+  text-align: justify;
+  padding: 20px;
+  line-height: 1.4em;
+}

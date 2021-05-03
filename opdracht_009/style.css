@@ -1,0 +1,80 @@
+.parent {
+    display: grid;
+    grid-template-columns: 30px 1fr 1fr 60px 30px;
+    grid-template-rows: 100px 500px 100px;
+    grid-gap:1px;
+    height:700px;
+    grid-template-areas: 
+    ". h h h . "
+    ". m n a ."
+    ". f f f . ";
+    
+}
+ header,
+ main,
+ nav,
+ aside,
+ footer,
+ {
+ margin:20px;  
+}
+header{
+    background-color: blue; border: black 5px;
+    font-size: x-large;
+    color: darkgray;
+    grid-area: h;
+}
+
+
+main{
+    background-color: blueviolet;border:black 1px;
+    
+    grid-area: m;
+}
+aside{
+    background-color: rgb(45, 63, 63);border:black;
+    grid-area: a;
+}
+
+nav{
+    background-color: chocolate; border: black 1px;
+    
+    ;grid-area: n;
+
+}
+
+footer{
+    background-color: cyan; border: black 1px;
+   
+    grid-area: f;
+}
+@media screen and (min-width: 1024px){
+
+.parent {
+    display: grid;
+    grid-template-columns: 30px 1fr 1fr 60px 30px;
+    grid-template-rows: 300px 100px 500px 100px;
+    grid-gap:1px;
+    height:1000px;
+    grid-template-areas: 
+    ". h h h . "
+    ". n n a .  "
+    ". m m a ."
+    ". f f f . ";
+}
+
+ @media screen and (min-width: 1500px){
+     
+
+.parent {
+    display: grid;
+    grid-template-columns: 30px 1fr 1fr 300px 60px 30px;
+    grid-template-rows: 300px 100px 500px 100px;
+    grid-gap:1px;
+    height:1000px;
+    grid-template-areas: 
+    ". h h n . "
+    ". m m n .  "
+    ". m m a ."
+    ". f f f . ";
+}

@@ -1,0 +1,19 @@
+@media screen and (min-width: 1024px) {
+
+
+
+.blogpost { width: 300px; border: 1px solid black; background-color; 
+display:inline-flex;
+flex-direction:row;
+align-self:center;
+flex-wrap: wrap;
+justify-content:space-around;
+flex-grow: inherit;
+background-color: rgb(121, 126, 124);
+width: 300px; border: 1px solid black; 
+   
+}
+
+.body-index{  background-color: rgb(50, 50, 56);
+    
+}

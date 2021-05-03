@@ -1,0 +1,88 @@
+body{
+    
+    background-color:#c3cfe2 ;
+    display: block;
+    width:500px;
+    height:500px;
+    color: rgb(87, 84, 84);
+    padding-left:12%;
+    font-family: "Open Sans", "Trebuchet MS", arial, verdana, sans-serif;
+}
+.card{
+    background-color:#fff ;
+    display:block;
+    width:575px ;
+    height:700px;
+    border-radius: 3%;
+    -webkit-box-shadow: 2px 20px 9px 6px rgba(0,0,0,0.73); 
+    box-shadow: 2px 20px 9px 6px rgba(0,0,0,0.73);
+
+    &__top{
+    background-color:#fff;
+    display:flex;
+    align-content: center;
+    align-items: center;
+    margin: 100px;
+    }
+    &__head{ 
+    
+    padding:auto auto auto 60px;
+    margin-top: 17%;
+    padding-top: 40px;
+}
+    &__image{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center;
+    margin: -100px -100px 0 173px ;  
+}
+    &__footer{
+    background-color: #686de0;
+    background-size: cover;
+    display:block;
+    border-radius: 0 0 5% 5%;
+    height:auto;
+    margin-top: 40%;
+    height: 300px;
+}
+    &__name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+
+
+img{
+
+    display:flex;
+    align-content:center;
+    align-items: center;
+    border-radius: 80%;
+    margin-top: -110px;
+    border: #fff solid 10px;
+    width: 200px;
+    height: 200px;
+    
+    
+}
+
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0%;
+    color:rgb(167, 158, 158) ;
+    
+}
+
+
+
+h2{
+    color: #fff;
+    padding-top:0;
+}
