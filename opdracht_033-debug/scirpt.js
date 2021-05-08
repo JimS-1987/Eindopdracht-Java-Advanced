@@ -7,13 +7,12 @@ const array = [
   { name: "Dr.Evil", profession: "digital overlord", age: 56 }
 ];
 
-for (let person of array); {
-
-//console.log("dit is de array",[array]);
-//console.log ("profession",[profesion] );
-//console.log( "age",[age]);
-//console.log( "name,"[name])
-//console.log(name, profession)
-
-
-}
+  for (let person of array) {
+    console.log("Dit is de gehele persoon:", person);
+    console.log("en hier hebben we: ", person.name);
+    console.log("geboortedatum:", 2020 - person.age);
+    console.log("Beroep:", person.name + " is een " + person.profession);
+        if (person.age > 50){
+                console.log("Persoon is ouder dan 50", person.name)
+        }
+  }

@@ -55,7 +55,7 @@ return (arr.shift());
 
 
 const combineArrays = function (array,arr){
-
+number * number
 
   return (array.concat(arr))
 }
